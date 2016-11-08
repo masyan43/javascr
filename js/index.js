@@ -30,7 +30,7 @@ var D = discr(a, b, c);
 
     if (D < 0) {
         document.writeln('Equation: (' + a + ')x<sup>2</sup> + (' + b + ')x + (' + c + ') = 0 <br>');
-        document.write('D < 0, so havent roots');;
+        document.write('D < 0 => has no real roots');
     } else {
         var x1 = root1(a, b, D);
             x2 = root2(a, b, D);
